@@ -42,7 +42,7 @@ function App() {
           miss out!
         </p>
         <form
-          action="https://disciplinealert-1204a9d734ed.herokuapp.com//stripe/create-checkout-session"
+          action="https://disciplinealert-1204a9d734ed.herokuapp.com/stripe/create-checkout-session"
           method="POST"
         >
           <button type="submit">Pre-order</button>
