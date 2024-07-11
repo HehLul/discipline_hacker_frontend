@@ -22,16 +22,24 @@ function App() {
     <>
       <div className="listing">
         <h1>DisciplineAlert</h1>
-        <h2>
-          Achieve your ambitions and stay focused with DisciplineAlert. Whenever
-          you need to stay disciplined, our app is here to help.
-        </h2>
+        <h2>Achieve your ambitions and stay focused with DisciplineAlert.</h2>
         <p className="feature">
-          <strong>Instant Personalized Support:</strong> Send a message to
-          WhatsApp, and DisciplineAlert will respond with your own customized
-          mindset boards.Whether you're battling distractions like doom
-          scrolling or seeking a motivation boost, DisciplineAlert is your
-          perfect tool for staying disciplined throughout your day.
+          <strong>Instant Personalized Support:</strong> Stay disciplined
+          against distractions or get a quick motivation boost anytime.
+        </p>
+
+        <p className="feature">
+          <strong>Create Personal Mindset Boards:</strong> Design boards for
+          specific situations and motivation.
+        </p>
+
+        <p className="feature">
+          <strong>Set Timers and Alarms:</strong> Schedule mindset board pings.
+        </p>
+
+        <p className="feature">
+          <strong>On-Demand Mindset Boards:</strong> Retrieve your mindset board
+          whenever needed.
         </p>
         <h3>
           For only $15.99, enjoy <u>lifetime access</u> to the app with{" "}
@@ -42,7 +50,7 @@ function App() {
           miss out!
         </p>
         <form
-          action="https://disciplinealert-1204a9d734ed.herokuapp.com/stripe/create-checkout-session"
+          action="http://localhost:3000/stripe/create-checkout-session"
           method="POST"
         >
           <button type="submit">Pre-order</button>
@@ -62,3 +70,4 @@ function App() {
 }
 
 export default App;
+
